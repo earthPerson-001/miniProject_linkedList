@@ -1,4 +1,5 @@
-# Mini-Project -> Linked List 
+# Linked List
+A miniproject implementing linked list data structure.
 
 # Description
 The program implements the linked list type of data structure. This program is capable of storing, managing and deleting of data of students. The data includes name, roll number, marks in various subjects and the average marks of all the subjects. 
@@ -10,12 +11,12 @@ In computer programming linked list is a type of data storing list in which data
 In this project linked list is used to store data of students. Here, a structure node is created which represents a node of the linked list. The node is further typedefined into student for ease of use. The student structure contains name of the student, roll number of the student, marks obtained in physics, chemistry, mathematics, computer and average marks combining all the subjects. The list starts with head node and ends at tail node which points to NULL. Tail isn't mandatory to keep track of but tracking it makes it a bit easier to manipulate data at the last position. Because it is a linked list for manipulating data at the position other than first and last positions requires traversal which means going through each node of the list to performing certain operation. For changing data in the middle part of the list traversal through head node has to be done moving through each node by accessing pointer to the next node.
 
 # The project has the following features
--The program is able to add data of a student to first position and last position of the list.
--The program is able to insert data to any middle part of the list randomly or at fixed place.
--The program is able to search data of student taking name, roll number, average range as the search value.
--The program is able to display all the contents of the list or a specified one through search.
--The program is able to sort the data of students by roll number in acsending order.
--The program is able to delete the data of a student.
+- The program is able to add data of a student to first position and last position of the list.
+- The program is able to insert data to any middle part of the list randomly or at fixed place.
+- The program is able to search data of student taking name, roll number, average range as the search value.
+- The program is able to display all the contents of the list or a specified one through search.
+- The program is able to sort the data of students by roll number in ascending order.
+- The program is able to delete the data of a student.
 
 # IMPLEMENTATION OF FEATURES
 
@@ -34,3 +35,5 @@ Bubble sorting algorithm is used. Bubble sort is used because bubble sort sorts 
 # Deletion
 The program is able to delete any data by searching through roll number. First the delete function will call search to show the matching entries and then only deletion will occur with speified roll number. Here roll number is used because roll numbers are unique in case of this program.
 
+# Building
+For building with mingw in linux, simply run compile.sh script. The output file will be written to build directory.
