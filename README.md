@@ -1,5 +1,5 @@
 # Linked List
-A miniproject implementing linked list data structure.
+A miniproject implementing linked list data structure. [Build](https://github.com/earthPerson-001/miniProject_linkedList/blob/main/README.md#building)
 
 # Description
 The program implements the linked list type of data structure. This program is capable of storing, managing and deleting of data of students. The data includes name, roll number, marks in various subjects and the average marks of all the subjects. 
@@ -36,4 +36,9 @@ Bubble sorting algorithm is used. Bubble sort is used because bubble sort sorts 
 The program is able to delete any data by searching through roll number. First the delete function will call search to show the matching entries and then only deletion will occur with speified roll number. Here roll number is used because roll numbers are unique in case of this program.
 
 # Building
-For building with mingw in linux, simply run compile.sh script. The output file will be written to build directory.
+For building with mingw in linux:
+1. Make a build directory in project directory. `mkdir build`
+2. Ensure mingw is properly installed. You can run `gcc --version` to be sure.
+3. Run compilation script: `./compile.sh`
+4. The executable will be inside the build folder and this script will automatically run it.
+
